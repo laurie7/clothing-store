@@ -4,6 +4,10 @@ h1 {
   opacity: 50%;
 }
 
-p {
+#header {
   text-align: center;
+}
+
+#receipt {
+  display: none;
 }

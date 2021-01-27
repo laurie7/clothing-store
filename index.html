@@ -10,8 +10,9 @@
 <body>
   <div class="container">
     <h1>Laurie's Clothing Store</h1>
-    <form>
-      <p>Please enter your full name and address:</p>
+    <p>Thanks for visiting Laurie's! Here you'll find comfort is key but you'll still look fly on the by. There's no fuss, no muss, just gus.</p>
+    <form id="formOne">
+      <p id="header">Please enter your full name and address:</p>
       <div class="form-group">
         <label for="firstName">First name:</label>
         <input id="firstName" class="form-control" type="text">
@@ -48,19 +49,19 @@
       <label>What item would you like to order?</label>
       <div class="radio">
         <label>
-          <input type="radio" name="clothing" value="tights" checked>
+          <input type="radio" name="clothing" value="Tights" checked>
           Tights
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="clothing" value="dress">
+          <input type="radio" name="clothing" value="Dress">
           Dress
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="clothing" value="shorts">
+          <input type="radio" name="clothing" value="Shorts">
           Shorts
         </label>
       </div>
@@ -69,8 +70,21 @@
         <input id="color" class="form-control" type="color">
       </div>
 
-
+      <button type="submit" class="btn btn-secondary">Submit!</button>
     </form>
+
+    <div id="receipt">
+      <h3>Hey <span class="firstName"></span> <span class="lastName"></span>, thank you for purchasing from Laurie's Clothing Store!</h3>
+      <h3>Here's your receipt:</h3>
+      <p>Name: <span class="firstName"></span> <span class="lastName"></span> </p>
+      <p>Address line 1: <span class="address1"></span> </p>
+      <p>Address line 2: <span class="address2"></span> </p>
+      <p>City: <span class="city"></span></p>
+      <p>State: <span class="state"></span></p>
+      <p>Zip code: <span class="zipCode"></span></p>
+      <p>Item: <span class="clothing"></span></p>
+      <p>Color: <span class="color"></span></p>
+    </div>
   </div>
 </body>
 </html>
@@ -78,8 +92,7 @@
 
 <!--
 
-1. Submit: show them a receipt. 
-2. Thank them for purchasing 
+
 3. be sure to use their full name. 
 4. reprint their address as a confirmation of shipping details
 
