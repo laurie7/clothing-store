@@ -20,8 +20,9 @@ $(document).ready(function() {
     $(".clothing").text(clothingInput);
     $(".color").text(color);
     
-
     $("#receipt").show();
+    $("#form").hide();
+
 
   event.preventDefault();
   });

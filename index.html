@@ -9,82 +9,83 @@
 </head>
 <body>
   <div class="container">
-    <h1>Laurie's Clothing Store</h1>
-    <p>Thanks for visiting Laurie's! Here you'll find comfort is key but you'll still look fly on the by. There's no fuss, no muss, just gus.</p>
-    <form id="formOne">
-      <p id="header">Please enter your full name and address:</p>
-      <div class="form-group">
-        <label for="firstName">First name:</label>
-        <input id="firstName" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="lastName">Last name:</label>
-        <input id="lastName" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="address1">Address line 1:</label>
-        <input id="address1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="address2">Address line 2</label>
-        <input id="address2" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="city">City</label>
-        <input id="city" class="form-control" type="text">
-      </div>
-        <label>State</label>
-      <select class="form-control" id="state">
-        <option>Alaska</option>
-        <option>Texas</option>
-        <option>Oregon</option>
-        <option>Washington</option>
-        <option>Utah</option>
-        <option>Colorado</option>
-      </select>
-      <div class="form-group">
-        <label for="zipCode">Zip code</label>
-        <input id="zipCode" class="form-control" type="text">
-      </div>
-      <label>What item would you like to order?</label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="clothing" value="Tights" checked>
-          Tights
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="clothing" value="Dress">
-          Dress
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="clothing" value="Shorts">
-          Shorts
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="color">Click on the bar below and choose the color you'd like!</label>
-        <input id="color" class="form-control" type="color">
-      </div>
+    <div id="form">
+      <h1>Laurie's Clothing Store</h1>
+      <p>Thanks for visiting Laurie's! Here you'll find comfort is key but you'll still look fly on the by. There's no fuss, no muss, just gus.</p>
+      <form id="formOne">
+        <p id="header">Please enter your full name and address:</p>
+        <div class="form-group">
+          <label for="firstName">First name:</label>
+          <input id="firstName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last name:</label>
+          <input id="lastName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address1">Address line 1:</label>
+          <input id="address1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address2">Address line 2</label>
+          <input id="address2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="city">City</label>
+          <input id="city" class="form-control" type="text">
+        </div>
+          <label>State</label>
+        <select class="form-control" id="state">
+          <option>Alaska</option>
+          <option>Texas</option>
+          <option>Oregon</option>
+          <option>Washington</option>
+          <option>Utah</option>
+          <option>Colorado</option>
+        </select>
+        <div class="form-group">
+          <label for="zipCode">Zip code</label>
+          <input id="zipCode" class="form-control" type="text">
+        </div>
+        <label>What item would you like to order?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="clothing" value="Tights" checked>
+            Tights
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="clothing" value="Dress">
+            Dress
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="clothing" value="Shorts">
+            Shorts
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="color">Click on the bar below and choose the color you'd like!</label>
+          <input id="color" class="form-control" type="color">
+        </div>
 
-      <button type="submit" class="btn btn-secondary">Submit!</button>
-    </form>
-
-    <div id="receipt">
-      <h3>Hey <span class="firstName"></span> <span class="lastName"></span>, thank you for purchasing from Laurie's Clothing Store!</h3>
-      <h3>Here's your receipt:</h3>
-      <p>Name: <span class="firstName"></span> <span class="lastName"></span> </p>
-      <p>Address line 1: <span class="address1"></span> </p>
-      <p>Address line 2: <span class="address2"></span> </p>
-      <p>City: <span class="city"></span></p>
-      <p>State: <span class="state"></span></p>
-      <p>Zip code: <span class="zipCode"></span></p>
-      <p>Item: <span class="clothing"></span></p>
-      <p>Color: <span class="color"></span></p>
+        <button type="submit" class="btn btn-secondary">Submit!</button>
+      </form>
     </div>
+      <div id="receipt">
+        <h3>Hey <span class="firstName"></span> <span class="lastName"></span>, thank you for purchasing from Laurie's Clothing Store!</h3>
+        <h3>Here's your receipt:</h3>
+        <p>Name: <span class="firstName"></span> <span class="lastName"></span> </p>
+        <p>Address line 1: <span class="address1"></span> </p>
+        <p>Address line 2: <span class="address2"></span> </p>
+        <p>City: <span class="city"></span></p>
+        <p>State: <span class="state"></span></p>
+        <p>Zip code: <span class="zipCode"></span></p>
+        <p>Item: <span class="clothing"></span></p>
+        <p>Color: <span class="color"></span></p>
+      </div>
   </div>
 </body>
 </html>
